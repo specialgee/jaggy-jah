@@ -1,0 +1,119 @@
+@font-face {
+	font-family: "ActionJackson";
+	src: url("../font/actionj.ttf");
+}
+
+@font-face {
+	font-family: "IndigoJoker";
+	src: url("../font/indigojo.ttf");
+}
+
+@font-face {
+	font-family: "CartonSix";
+	src: url("../font/cartonsix.ttf");
+}
+
+@font-face {
+	font-family: "GetTheFuckUp";
+	src: url("../font/getthefuckup.otf");
+}
+
+@font-face {
+	font-family: "FuckFont";
+	src: url("../font/fuckfont.ttf");
+}
+
+body {
+    //background: #eaffdb;
+    background: #74f300;
+    margin: 0 auto;
+    font-family: "GetTheFuckUp", sans-serif;
+    font-weight: normal;
+    overflow: -moz-scrollbars-none;
+	overflow-y: hidden;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+	width: 0 !important
+}
+
+ :focus {
+	outline: 0;
+	background: rgb(0, 0, 0, 0);
+}
+
+.noselect {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link,
+a:visited {
+	color: rgba(255, 255, 255, 0.8);
+}
+
+#app {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-align: center;
+    color: #c1ff01;
+    -webkit-text-stroke: 2px #000;
+	margin: 0 auto;
+}
+
+#home {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#overlay {
+    display: block;
+    background: rgba(255, 255, 255, 0.58);
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#title {
+    margin: 0 auto;
+    font-weight: normal;
+    font-size: 15vw;
+    letter-spacing: 10px;
+    line-height: 125%;
+    animation-duration: 20s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;  
+}
+
+#video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;;
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 480px) {
+    
+}
